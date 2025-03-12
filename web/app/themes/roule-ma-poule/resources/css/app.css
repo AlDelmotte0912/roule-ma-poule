@@ -5,12 +5,12 @@
 @theme {
   --color-primary: #F47321;
   --color-secondary: #fffff1;
-  --color-third: #2c2c29;
-  --font-display: "rmpFont", "sans-serif";
+  --color-third: #f68d4d;
+  --font-hanna: "bm-hanna", "sans-serif";
 
 }
 @font-face {
-  font-family: rmpFont;
+  font-family: bm-hanna;
   font-style: normal;
   font-weight: 200 700;
   font-display: swap;

@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@roots/bud-postcss": "^6.6.6",
+    "@roots/bud-sass": "^6.24.0"
+  }
+}
