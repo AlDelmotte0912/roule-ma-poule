@@ -1,13 +1,20 @@
+
 @import "tailwindcss" theme(static);
+
 @source "../views/";
 @source "../../app/";
+
+@import "./navbar/_navbar.css";
+@import "./sections/_header.css";
+
 
 @theme {
   --color-primary: #F47321;
   --color-secondary: #fffff1;
   --color-third: #f68d4d;
-  --font-hanna: "bm-hanna", "sans-serif";
-
+  --font-hanna: "bm-hanna";
+/* inset https://tailwindcss.com/docs/top-right-bottom-left*/
+  --spacing-submenu: 3rem;
 }
 @font-face {
   font-family: bm-hanna;
@@ -16,3 +23,9 @@
   font-display: swap;
   src: url('@fonts/bm-hanna.ttf') format("truetype");
 }
+
+a {
+@apply no-underline ;
+}
+
+

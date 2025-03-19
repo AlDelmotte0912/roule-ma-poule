@@ -9,12 +9,39 @@
     "color": {
       "custom": false,
       "customDuotone": false,
-      "customGradient": false,
+      "customGradient": true,
       "defaultDuotone": false,
       "defaultGradients": false,
       "defaultPalette": false,
-      "duotone": []
-    },
+      "duotone": [],
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#F47321",
+          "name": "orange principal"
+        },
+        {
+          "slug": "secondary",
+          "color": "#fffff1",
+          "name": "blanc cassé"
+        },
+        {
+          "slug": "third",
+          "color": "#f68d4d",
+          "name": "orange secondaire"
+        },
+        {
+          "slug": "black",
+          "color": "#131516",
+          "name": "noir"
+        },
+        {
+          "slug": "white",
+          "color": "#FFFFFF",
+          "name": "Blanc"
+        }
+      ]
+  },
     "custom": {
       "spacing": {},
       "typography": {

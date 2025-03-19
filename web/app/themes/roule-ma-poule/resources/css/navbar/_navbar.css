@@ -1,0 +1,20 @@
+.nav-primary {
+  @apply flex flex-grow justify-evenly;
+  div {
+    @apply flex w-xl;
+    ul {
+      @apply flex w-full;
+
+      li {
+        @apply flex-1 text-center text-primary hover:text-third;
+        font-family: 'bm-hanna';
+
+        a {
+          @apply block w-full h-full flex items-center justify-center;
+
+        }
+      }
+    }
+  }
+}
+

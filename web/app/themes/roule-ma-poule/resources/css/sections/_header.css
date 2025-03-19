@@ -1,0 +1,21 @@
+.nav-primary {
+
+  #menu-main-menu{
+    gap: 3rem;
+  }
+
+  li{
+    @apply py-3 text-sm
+  }
+  .menu-item-has-children{
+    position: relative;
+  }
+  .sub-menu{
+    @apply hidden absolute opacity-0 top-submenu left-0  p-4 drop-shadow;
+
+  }
+  li:hover > .sub-menu{
+    @apply flex flex-col opacity-100 bg-white
+  }
+}
+
