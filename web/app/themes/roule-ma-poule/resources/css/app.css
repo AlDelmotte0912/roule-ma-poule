@@ -1,11 +1,11 @@
-
 @import "tailwindcss" theme(static);
+@import "./navbar/_navbar.css";
+@import "./sections/_header.css";
 
 @source "../views/";
 @source "../../app/";
 
-@import "./navbar/_navbar.css";
-@import "./sections/_header.css";
+
 
 
 @theme {
@@ -14,7 +14,7 @@
   --color-third: #f68d4d;
   --font-hanna: "bm-hanna";
 /* inset https://tailwindcss.com/docs/top-right-bottom-left*/
-  --spacing-submenu: 3rem;
+  --spacing-submenu: 4rem;
 }
 @font-face {
   font-family: bm-hanna;
@@ -27,5 +27,3 @@
 a {
 @apply no-underline ;
 }
-
-

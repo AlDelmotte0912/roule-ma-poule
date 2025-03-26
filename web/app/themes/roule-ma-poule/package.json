@@ -19,10 +19,15 @@
     "@roots/bud-postcss": "^6.24.0",
     "@roots/bud-sass": "^6.24.0",
     "@roots/vite-plugin": "^1.0.2",
-    "@tailwindcss/vite": "^4.0.9",
+    "@tailwindcss/vite": "^4.0.15",
+    "autoprefixer": "^10.4.21",
     "laravel-vite-plugin": "^1.2.0",
+    "postcss": "^8.5.3",
     "sass": "^1.85.1",
-    "tailwindcss": "^4.0.9",
+    "tailwindcss": "^4.0.15",
     "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "flowbite": "^3.1.2"
   }
 }

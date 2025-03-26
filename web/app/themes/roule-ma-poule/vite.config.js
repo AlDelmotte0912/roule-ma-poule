@@ -6,7 +6,9 @@ import { wordpressPlugin, wordpressThemeJson } from '@roots/vite-plugin';
 export default defineConfig({
   base: '/app/themes/roule-ma-poule/public/build/',
   plugins: [
-    tailwindcss(),
+    tailwindcss({
+      config: './tailwind.config.js',
+    }),
     laravel({
       input: [
         'resources/css/app.css',
